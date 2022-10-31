@@ -11,14 +11,14 @@ public class TheKWeakestRowsInAMatrix
     public static void main(String[] args)
     {
         int[][] mat = {{1, 1, 0, 0, 0}, {1, 1, 1, 1, 0}, {1, 0, 0, 0, 0}, {1, 1, 0, 0, 0}, {1, 1, 1, 1, 1}};
-        int[] kWeakestRows = kWeakestRows(mat, 3);
+        int[] kWeakestRows = kWeakestRowsInAMatrix(mat, 3);
         for(int i : kWeakestRows)
         {
             System.out.println(i);
         }
     }
 
-    public static int[] kWeakestRows(int[][] mat, int k)
+    public static int[] kWeakestRowsInAMatrix(int[][] mat, int k)
     {
         int[] back = new int[k];
         

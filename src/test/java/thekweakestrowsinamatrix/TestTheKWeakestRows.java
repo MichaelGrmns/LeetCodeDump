@@ -1,4 +1,4 @@
-package test.java.thekweakestrows;
+package test.java.thekweakestrowsinamatrix;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -18,7 +18,7 @@ public class TestTheKWeakestRows
         int k = 3;
 
         TheKWeakestRowsInAMatrix theKWeakestRowsInAMatrix = new TheKWeakestRowsInAMatrix();
-        int[] res = theKWeakestRowsInAMatrix.kWeakestRows(mat, k);
+        int[] res = theKWeakestRowsInAMatrix.kWeakestRowsInAMatrix(mat, k);
 
         int[] exp = {2, 0, 3};
 
@@ -33,7 +33,7 @@ public class TestTheKWeakestRows
         int k = 2;
 
         TheKWeakestRowsInAMatrix theKWeakestRowsInAMatrix = new TheKWeakestRowsInAMatrix();
-        int[] res = theKWeakestRowsInAMatrix.kWeakestRows(mat, k);
+        int[] res = theKWeakestRowsInAMatrix.kWeakestRowsInAMatrix(mat, k);
 
         int[] exp = {0, 2};
 
